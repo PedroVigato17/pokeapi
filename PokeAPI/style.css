@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #ff5350;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #e0413e;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
+
+.message {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}

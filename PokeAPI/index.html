@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Pokémon - NovaTech Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Buscador de Pokémon</h1>
+
+    <div class="search-box">
+      <input type="text" id="pokemonInput" placeholder="Digite o nome ou ID do Pokémon...">
+      <button id="searchBtn">Buscar</button>
+    </div>
+
+    <div id="messageContainer" class="message"></div>
+
+    <div id="pokemonCard" class="card hidden">
+      <img id="pokemonImg" src="" alt="Imagem do Pokémon">
+      <h2 id="pokemonName"></h2>
+      <p><strong>Número:</strong> #<span id="pokemonId"></span></p>
+      <p><strong>Tipo(s):</strong> <span id="pokemonTypes"></span></p>
+      <p><strong>Habilidades:</strong> <span id="pokemonAbilities"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
